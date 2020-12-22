@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cửa hàng xe ô tô</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>QUẢN LÝ HÃNG XE</h2>
+      <div class="input">
+        <span class="input-icon"><i class="fas fa-car-side"></i></span>
+        <input type="text" placeholder="Nhập tên hãng xe..." id="car-name" />
+      </div>
+      <div class="button-control">
+        <button class="btn btn-green" id="add-car"><i class="fas fa-plus"></i>Thêm</button>
+        <button class="btn btn-red" id="delete-car"><i class="fas fa-trash-alt"></i>Xóa</button>
+        <button class="btn btn-orange" id="edit-car"><i class="fas fa-edit"></i>Sửa</button>
+      </div>
+      <ul id="car-list">
+        <!-- Render danh sách hãng xe ra đây! -->
+      </ul>
+      <span>©️ Aptech Buôn Ma Thuột</span>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

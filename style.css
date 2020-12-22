@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #d8d8d8;
+  padding: 20px;
+  margin-top: 200px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #888;
+}
+h2 {
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 5px 0;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: saddlebrown;
+  border-radius: 5px;
+}
+.button-control {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.btn {
+  text-align: center;
+  cursor: pointer;
+  padding: 5px 20px;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #888;
+  outline: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-green {
+  background-color: #3ea055;
+}
+.btn-red {
+  background-color: #990207;
+}
+.btn-orange {
+  background-color: #d38312;
+}
+.btn i {
+  margin-right: 6px;
+  font-size: 14px;
+}
+.input {
+  position: relative;
+}
+.input-icon {
+  position: absolute;
+  left: 4%;
+  top: -35%;
+  /* transform: translate(-50%, -50%); */
+  font-size: 23px;
+  color: #888;
+}
+#car-name {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding-left: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  color: #0f2027;
+  font-weight: 500;
+}
+
+#car-list {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#car-list li {
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-left: 5px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  color: honeydew;
+  transition: all 0.3s ease-in-out;
+}
+#car-list li:hover {
+  transform: scale(1.2);
+}
+
+span {
+  margin-top: 30px;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  color: saddlebrown;
+}
